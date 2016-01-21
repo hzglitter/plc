@@ -9,6 +9,7 @@ class myPlc:
         self.ip = ip
         self.rack = rack
         self.slot = slot
+        
 
     def connect(self):
         self.client = snap7.client.Client()
@@ -51,7 +52,6 @@ class myPlc:
 
 if __name__ == '__main__':
     plc = myPlc('192.168.0.65',0,2)
-
     ans=True
     while ans:
         print ("""
@@ -83,6 +83,7 @@ if __name__ == '__main__':
             break
         elif ans !="":
             print("\n Not Valid Choice Try again")
+        
 
 
 
