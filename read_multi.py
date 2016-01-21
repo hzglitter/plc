@@ -1,6 +1,6 @@
 """
 Example ussage of the read_multi_vars function
-This was tested against a S7-319 CPU
+Ts was tested against a S7-319 CPU
 """
 
 import ctypes
