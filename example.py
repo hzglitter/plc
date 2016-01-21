@@ -43,6 +43,7 @@ class myPlc:
         res = self.client.db_read(dbN,start,size)
         for rec in res:
             print(rec)
+        print("Hello")
 
     def test_download(self,dbN):
         data = bytearray(1024)
